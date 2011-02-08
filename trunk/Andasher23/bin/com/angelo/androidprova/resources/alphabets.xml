@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : alphabets.xml
+    Created on : September 16, 2009, 11:41 AM
+    Author     : joshua
+    Description:
+        Purpose of the document follows.
+-->
+
+<!DOCTYPE filelist SYSTEM 'filelist.dtd'>
+<filelist>
+    <file name="alphabet.english.xml"/>
+    <file name="alphabet.englishC.xml"/>
+    <file name="alphabet.Thai.xml"/>
+</filelist>

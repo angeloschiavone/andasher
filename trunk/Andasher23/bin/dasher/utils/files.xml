@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : files.xml
+    Created on : September 16, 2009, 2:45 PM
+    Author     : joshua
+    Description:
+        Purpose of the document follows.
+-->
+
+<!DOCTYPE filelist SYSTEM 'filelist.dtd'>
+<filelist>
+    <file name="one.txt"></file>
+    <file name="two.txt"></file>
+</filelist>

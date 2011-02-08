@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>DTD Grammar Documentation</title>
+<meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8" />
+</head>
+
+<!-- Generated on Sep 21, 2009 by NetBeans XML module. -->
+<body>
+
+<hr />
+<h2>Element Index</h2>
+<ul><li><tt><a href="#checkitem">checkitem</a></tt></li>
+<li><tt><a href="#choice">choice</a></tt></li>
+<li><tt><a href="#choicemenu">choicemenu</a></tt></li>
+<li><tt><a href="#item">item</a></tt></li>
+<li><tt><a href="#menu">menu</a></tt></li>
+<li><tt><a href="#menubar">menubar</a></tt></li>
+<li><tt><a href="#separator">separator</a></tt></li>
+</ul>
+
+<hr />
+<h2>Element Details</h2>
+
+
+<hr />
+<h2><a name="menubar"></a>menubar</h2>
+
+<p><b>Declared Attributes</b></p>
+<ul><li><tt>#DEFAULT CDATA name</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( true | false ) byaction = false</tt></li>
+</ul>
+<p><b>Element Content Model</b></p>
+<p><tt>(<a href="#menu">menu</a>*, <a href="#choicemenu">choicemenu</a>*)</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt></tt></p>
+
+
+<hr />
+<h2><a name="menu"></a>menu</h2>
+
+<p><b>Declared Attributes</b></p>
+<ul><li><tt>#REQUIRED CDATA name</tt></li>
+<li><tt>#IMPLIED CDATA method</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( true | false ) enabled = true</tt></li>
+</ul>
+<p><b>Element Content Model</b></p>
+<p><tt>(<a href="#item">item</a>*, <a href="#checkitem">checkitem</a>*, <a href="#menu">menu</a>*, <a href="#choicemenu">choicemenu</a>*, <a href="#separator">separator</a>*)</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#menubar">menubar</a>, <a href="#menu">menu</a></tt></p>
+
+
+<hr />
+<h2><a name="item"></a>item</h2>
+
+<p><b>Declared Attributes</b></p>
+<ul><li><tt>#IMPLIED CDATA name</tt></li>
+<li><tt>#IMPLIED CDATA method</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( true | false ) enabled = true</tt></li>
+<li><tt>#IMPLIED CDATA shortcut</tt></li>
+</ul>
+<p><b>Element Content Model</b></p>
+<p><tt>(#PCDATA)*</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#menu">menu</a></tt></p>
+
+
+<hr />
+<h2><a name="checkitem"></a>checkitem</h2>
+
+<p><b>Declared Attributes</b></p>
+<ul><li><tt>#IMPLIED CDATA name</tt></li>
+<li><tt>#IMPLIED CDATA method</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( true | false ) enabled = true</tt></li>
+<li><tt>#IMPLIED CDATA shortcut</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( true | false ) value = false</tt></li>
+</ul>
+<p><b>Element Content Model</b></p>
+<p><tt>(#PCDATA)*</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#menu">menu</a></tt></p>
+
+
+<hr />
+<h2><a name="choicemenu"></a>choicemenu</h2>
+
+<p><b>Declared Attributes</b></p>
+<ul><li><tt>#REQUIRED CDATA name</tt></li>
+<li><tt>#IMPLIED CDATA method</tt></li>
+<li><tt>#REQUIRED CDATA default</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( true | false ) enabled = true</tt></li>
+</ul>
+<p><b>Element Content Model</b></p>
+<p><tt>(<a href="#choice">choice</a>+, <a href="#separator">separator</a>*)</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#menubar">menubar</a>, <a href="#menu">menu</a></tt></p>
+
+
+<hr />
+<h2><a name="choice"></a>choice</h2>
+
+<p><b>Declared Attributes</b></p>
+<ul><li><tt>#IMPLIED CDATA name</tt></li>
+<li><tt>#IMPLIED CDATA method</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( true | false ) enabled = true</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( true | false ) value = false</tt></li>
+<li><tt>#IMPLIED CDATA shortcut</tt></li>
+</ul>
+<p><b>Element Content Model</b></p>
+<p><tt>(#PCDATA)*</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#choicemenu">choicemenu</a></tt></p>
+
+
+<hr />
+<h2><a name="separator"></a>separator</h2>
+
+<p><b>Element Content Model</b></p>
+<p><tt>EMPTY</tt></p>
+<p><b>Referenced by</b></p>
+<p><tt><a href="#menu">menu</a>, <a href="#choicemenu">choicemenu</a></tt></p>
+</body></html>

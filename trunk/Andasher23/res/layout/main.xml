@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout android:id="@+id/FrameLayout01" android:layout_width="fill_parent" 
+android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<com.angelo.androidprova.applet.JDasherPanel2 android:id="@+id/JDasherPanel2"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+<com.angelo.androidprova.applet.MyTextView android:id="@+id/TextView01" 
+android:layout_height="wrap_content" 
+android:layout_gravity="center_horizontal|bottom" android:layout_width="fill_parent" android:textSize="20dip" android:editable="false" android:textColor="#ff000000">
+</com.angelo.androidprova.applet.MyTextView>
+
+
+</FrameLayout>
