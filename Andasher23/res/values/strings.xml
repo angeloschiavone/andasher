@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ActivityAngelo!</string>
+    <string name="app_name">AppProvaAndroid</string>
+<string name="title_my_preference">Max Speed</string>
+<string name="summary_my_preference">speed from 0 to 9</string>
+<string name="speed_title">Speed</string>
+<string name="speed_subtitle">Max Speed</string>
+<string name="input_title">Input</string>
+<string name="input_subtitle">Select input type</string>
+<string name="input_x_title">Input Horizontal</string>
+<string name="input_x_subtitle">Select horizontal input type</string>
+<string name="input_y_title">Input Vertical</string>
+<string name="input_y_subtitle">Select Vertical input type</string>
+</resources>

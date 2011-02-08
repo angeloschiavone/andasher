@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<!--Preference android:key="speed" android:title="speed" android:defaultValue="50"></Preference-->
+
+    <!-- com.angelo.androidprova.preferences.PreferenceInput
+            android:key="input_preference"
+            android:title="@string/input_title"
+            android:summary="@string/input_subtitle"
+            android:defaultValue="1" /-->
+                <com.angelo.androidprova.preferences.PreferenceInputX
+            android:key="input_x_preference"
+            android:title="@string/input_x_title"
+            android:summary="@string/input_x_subtitle"
+            android:defaultValue="1" />
+            
+            <com.angelo.androidprova.preferences.PreferenceInputY
+            android:key="input_y_preference"
+            android:title="@string/input_y_title"
+            android:summary="@string/input_y_subtitle"
+            android:defaultValue="1" />
+            
+    <com.angelo.androidprova.preferences.PreferenceSpeed
+            android:key="speed_preference"
+            android:title="@string/speed_title"
+            android:summary="@string/speed_subtitle"
+            android:defaultValue="1" />
+</PreferenceScreen>

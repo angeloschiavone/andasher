@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//skavookie//EN
+    SYSTEM ID  : menubar.dtd
+-->
+
+<!ELEMENT menubar (menu*,choicemenu*)>
+<!ATTLIST menubar name CDATA "">
+<!ATTLIST menubar byaction (true|false) "false">
+
+<!ELEMENT menu (item*,checkitem*,menu*,choicemenu*,separator*)>
+<!ATTLIST menu name CDATA #REQUIRED>
+<!ATTLIST menu method CDATA #IMPLIED>
+<!ATTLIST menu byaction (true|false) "false">
+<!ATTLIST menu enabled (true|false) "true">
+
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item name CDATA #IMPLIED>
+<!ATTLIST item method CDATA #IMPLIED>
+<!ATTLIST item enabled (true|false) "true">
+<!ATTLIST item shortcut CDATA #IMPLIED>
+
+<!ELEMENT checkitem (#PCDATA)>
+<!ATTLIST checkitem name CDATA #IMPLIED>
+<!ATTLIST checkitem method CDATA #IMPLIED>
+<!ATTLIST checkitem enabled (true|false) "true">
+<!ATTLIST checkitem shortcut CDATA #IMPLIED>
+<!ATTLIST checkitem value (true|false) "false">
+
+<!ELEMENT choicemenu (choice+,separator*)>
+<!ATTLIST choicemenu name CDATA #REQUIRED>
+<!ATTLIST choicemenu method CDATA #IMPLIED>
+<!ATTLIST choicemenu default CDATA #REQUIRED>
+<!ATTLIST choicemenu enabled (true|false) "true">
+
+<!ELEMENT choice (#PCDATA)>
+<!ATTLIST choice name CDATA #IMPLIED>
+<!ATTLIST choice method CDATA #IMPLIED>
+<!ATTLIST choice enabled (true|false) "true">
+<!ATTLIST choice value (true|false) "false">
+<!ATTLIST choice shortcut CDATA #IMPLIED>
+
+<!ELEMENT separator EMPTY>

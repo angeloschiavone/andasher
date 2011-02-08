@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : colours.xml
+    Created on : September 16, 2009, 11:43 AM
+    Author     : joshua
+    Description:
+        Purpose of the document follows.
+-->
+
+<!DOCTYPE filelist SYSTEM '/dasher/system.rc/filelist.dtd'>
+<filelist>
+    <file name="colour.euroasian.xml"/>
+    <file name="colour.rainbow.xml"/>
+    <file name="colour.euroasian-new.xml"/>
+    <file name="colour.thai.xml"/>
+</filelist>

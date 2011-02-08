@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : menus.xml
+    Created on : September 18, 2009, 2:47 PM
+    Author     : joshua
+    Description:
+        Purpose of the document follows.
+-->
+
+<!DOCTYPE menubar SYSTEM 'menubar.dtd'>
+<menubar>
+    <menu name="File">
+        <item shortcut="N">New</item>
+        <item shortcut="S">Save</item>
+        <item>Save As...</item>
+        <item shortcut="O">Open...</item>
+        <item>Train...</item>
+        <item shortcut="E">Exit</item>
+    </menu>
+    <menu name="Edit">
+        <item>Cut</item>
+        <item>Copy</item>
+        <item shortcut="A">Copy All</item>
+        <item>Paste</item>
+        <item>Select All</item>
+        <separator/>
+        <item>Spell Check...</item>
+        <item>Preferences...</item>
+    </menu>
+    <menu name="Help">
+        <item>About...</item>
+    </menu>
+</menubar>

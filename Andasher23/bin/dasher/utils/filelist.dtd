@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    PUBLIC ID  : -//skavookie//EN
+    SYSTEM ID  : filelist.dtd
+-->
+
+<!ELEMENT filelist (file*)>
+<!ELEMENT file EMPTY>
+<!ATTLIST file name CDATA #REQUIRED>
+
